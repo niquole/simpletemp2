@@ -1,0 +1,103 @@
+header, main, aside, article, footer {
+	display: block;
+}
+body {
+	background-color: #d9b6db;
+	margin: 0;
+	padding: 15px;
+}
+header {
+	min-height: 600px;
+	background-image: url("https://dotemirates-media.s3-eu-west-1.amazonaws.com/2018/07/8e866a1b40e9561be5affbd2f8794580.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+	margin: 20px 20px 0px 20px;
+}
+
+h1 {
+	font-family: "helvetica";
+	text-align: right;
+	color: #640e68;
+}
+main {
+	margin: 0;
+	padding:0;
+}
+
+article,aside {
+	background-color: #ebceed;
+	min-height: 300px;
+	font-family: "helvetica";
+
+	/* display: inline-block; */
+	
+}
+article {
+	background-color: #d9b6db;
+	width: 80%
+}
+
+aside {
+	min-height: 1100px;
+	float: right;
+	width: 20%;
+	margin: 0px 20px;
+}
+aside nav ul {
+	list-style-type: none;
+	padding:0;
+	text-align: center;
+	margin: 0;
+}
+aside nav ul li a {
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px purple;
+	padding: 30px;
+	text-transform: capitalize;
+	transition: 0.8s;
+	color: purple;
+	margin: 0;
+}
+aside nav ul li a:hover {
+	background-color: white;
+	color: pink;
+
+}
+article {
+	box-sizing: border-box;	
+	margin: 0;
+	padding: 20px;
+}
+
+aside span {
+	font-size: 30px;
+	padding-left: 30px;
+}
+.heading {
+	padding: 10px;
+	margin: 0;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size:30px;
+}
+
+.float {
+	float: left;
+}
+.width {
+	width: 25%;
+	padding: 0px;
+}
+
+
+.floatri {
+	margin-left: 500px;
+	padding: 0;
+}
+
+.border {
+	border-bottom: 2px solid purple;
+}
